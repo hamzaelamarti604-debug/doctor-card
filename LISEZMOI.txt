@@ -1,0 +1,3 @@
+Déposez ici les photos des médecins (ex : dr-sara.jpg).
+Format conseillé : carré, environ 600 x 600 px, moins de 300 Ko.
+Puis dans config.js : photo: "photos/dr-sara.jpg"
