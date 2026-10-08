@@ -119,7 +119,7 @@ const DOCTORS = [
     expertise: ["Implants dentaires", "Blanchiment", "Orthodontie invisible", "Soins conservateurs"],
     career: []
   }
-    {
+  {
     slug: "dr-hamza",
     title: "Dr", firstName: "hamza", lastName: "el-amarti",
     specialty: "endocrinologie", subSpecialty: "Implantologie & esthétique du sourire",
