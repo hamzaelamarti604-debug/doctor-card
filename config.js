@@ -119,23 +119,6 @@ const DOCTORS = [
     expertise: ["Implants dentaires", "Blanchiment", "Orthodontie invisible", "Soins conservateurs"],
     career: []
   }
-  {
-    slug: "dr-hamza",
-    title: "Dr", firstName: "hamza", lastName: "el-amarti",
-    specialty: "endocrinologie", subSpecialty: "Implantologie & esthétique du sourire",
-    photo: "", clinic: "Centre Dentaire Atlas", experience: "10 ans",
-    bio: "Chirurgien-dentiste à rabat, le Dr Tazi propose des soins complets : prévention, esthétique du sourire et implantologie, avec une technologie moderne et indolore.",
-    phone: "+212656916627", whatsapp: "",
-    email: "contact@dr-tazi.example",
-    address: "agdal, Guéliz, Marrakech, Maroc",
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Gueliz+Marrakech",
-    hours: { lun: "09:00-19:00", mar: "09:00-19:00", mer: "09:00-19:00", jeu: "09:00-19:00", ven: "09:00-19:00", sam: "09:00-14:00", dim: "" },
-    instagram: "https://instagram.com/", facebook: "https://facebook.com/", linkedin: "", website: "",
-    appointmentUrl: "",
-    theme: "royal",
-    stats: [],
-    expertise: ["Implants dentaires", "Blanchiment", "Orthodontie invisible", "Soins conservateurs"],
-    career: []
-  }
+ 
   /* ➕ AJOUTEZ ICI UN NOUVEAU MÉDECIN : n'oubliez pas la virgule après le "}" du médecin précédent */
 ];
