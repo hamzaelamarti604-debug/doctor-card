@@ -42,7 +42,7 @@ const DOCTORS = [
     photo:        "",                      // Ex : "photos/dr-yassine.jpg"  ou lien https://…  — vide = initiales
     clinic:       "Cabinet Dr Nazzi",    // Clinique / cabinet
     experience:   "35 ans",
-    bio:          "Cardiologue diplômé de la Faculté de Médecine de Rabat, le Dr El Amrani accompagne ses patients dans la prévention, le diagnostic et le suivi des maladies cardiovasculaires. Une approche à l'écoute, rigoureuse et personnalisée.",
+    bio:          "Cardiologue, ancien médecin colonel, le Dr Nazzi est diplômé de la Faculté de Médecine et de Pharmacie de Rabat. Après sa spécialisation en cardiologie, il a exercé au sein de l’Hôpital Militaire de Rabat, puis a dirigé le service de cardiologie de l’Hôpital Militaire de Meknès. Après sa carrière militaire, il a fondé son propre cabinet, où il exerce depuis lors. Fort de nombreuses formations et diplômes complémentaires, le Dr Nazzi accompagne ses patients dans la prévention, le diagnostic et le suivi des maladies cardiovasculaires. il s’investit également dans le développement de la cardiologie au Maroc en tant que Président de la Société Marocaine de Cardiologie.",
 
     /* Contact */
     phone:        "+212535526677",         // Format international, SANS espaces
