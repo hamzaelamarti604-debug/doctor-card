@@ -68,7 +68,7 @@ const DOCTORS = [
 
     /* Sections facultatives (mettre [] pour masquer) */
     stats: [                               // v = texte affiché, p = remplissage de l'anneau (0 à 100), l = légende
-      { v: "30",     p: 75, l: "ans d'expérience" },
+      { v: "35",     p: 75, l: "ans d'expérience" },
       { v: "8 500+", p: 85, l: "patients suivis" },
       { v: "99%",    p: 98, l: "de satisfaction" }
     ],
