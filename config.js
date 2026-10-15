@@ -31,16 +31,16 @@ const DOCTORS = [
 
   /* ───────────── MÉDECIN 1 (entièrement commenté : sert de modèle) ───────────── */
   {
-    slug:         "dr-yassine",            // ← L'URL : monsite.com/dr-yassine  (minuscules, tirets, sans accent ni espace, UNIQUE)
+    slug:         "dr-Nazzi",            // ← L'URL : monsite.com/dr-nazzi  (minuscules, tirets, sans accent ni espace, UNIQUE)
 
     /* Identité */
     title:        "Dr",                    // Titre : "Dr", "Pr"…
-    firstName:    "Yassine",
-    lastName:     "El Amrani",
+    firstName:    "Mbarek",
+    lastName:     "Nazzi",
     specialty:    "Cardiologue",
     subSpecialty: "Cardiologie interventionnelle & prévention",   // Sous-titre court (facultatif)
     photo:        "",                      // Ex : "photos/dr-yassine.jpg"  ou lien https://…  — vide = initiales
-    clinic:       "Clinique Al Madina",    // Clinique / cabinet
+    clinic:       "Cabinet Dr Nazzi",    // Clinique / cabinet
     experience:   "15 ans",
     bio:          "Cardiologue diplômé de la Faculté de Médecine de Rabat, le Dr El Amrani accompagne ses patients dans la prévention, le diagnostic et le suivi des maladies cardiovasculaires. Une approche à l'écoute, rigoureuse et personnalisée.",
 
