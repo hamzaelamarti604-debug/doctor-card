@@ -45,14 +45,14 @@ const DOCTORS = [
     bio:          "Cardiologue diplômé de la Faculté de Médecine de Rabat, le Dr El Amrani accompagne ses patients dans la prévention, le diagnostic et le suivi des maladies cardiovasculaires. Une approche à l'écoute, rigoureuse et personnalisée.",
 
     /* Contact */
-    phone:        "+212600000000",         // Format international, SANS espaces
+    phone:        "+212535526677",         // Format international, SANS espaces
     whatsapp:     "",                      // Facultatif. Ex : "+212600000000" → bouton + ligne WhatsApp
     email:        "contact@dr-elamrani.example",
-    address:      "12 Avenue Mohammed V, Agdal, Rabat, Maroc",
-    mapsUrl:      "",                      // Facultatif : lien Google Maps exact. Vide = itinéraire généré depuis l'adresse
+    address:      "N°2 Ave Ali Benyoussef, Meknes",
+    mapsUrl:      "N°2 Ave Ali Benyoussef, Meknes",                      // Facultatif : lien Google Maps exact. Vide = itinéraire généré depuis l'adresse
 
     /* Horaires : "HH:MM-HH:MM" — "" = fermé */
-    hours: { lun: "09:00-18:00", mar: "09:00-18:00", mer: "09:00-18:00", jeu: "09:00-18:00", ven: "09:00-18:00", sam: "09:00-13:00", dim: "" },
+    hours: { lun: "08:00-15:00", mar: "08:00-15:00", mer: "08:00-15:00", jeu: "08:00-15:00", ven: "08:00-15:00", sam: "", dim: "" },
 
     /* Réseaux (liens complets ; "" = bouton masqué) */
     instagram:    "https://instagram.com/",
@@ -68,11 +68,11 @@ const DOCTORS = [
 
     /* Sections facultatives (mettre [] pour masquer) */
     stats: [                               // v = texte affiché, p = remplissage de l'anneau (0 à 100), l = légende
-      { v: "15",     p: 75, l: "ans d'expérience" },
+      { v: "35",     p: 75, l: "ans d'expérience" },
       { v: "8 500+", p: 85, l: "patients suivis" },
-      { v: "98%",    p: 98, l: "de satisfaction" }
+      { v: "99%",    p: 98, l: "de satisfaction" }
     ],
-    expertise: ["Échocardiographie", "Hypertension artérielle", "Prévention cardiovasculaire", "Rythmologie", "Test d'effort"],
+    expertise: [" Echocardiographie-Doppler trans-thoracique", "Hypertension artérielle", "Rythmologie", "Test d'effort", "Holter Tensionnel", "Echo-Doppler vasculaire"],
     career: [                              // y = année, t = description
       { y: "2009",        t: "Doctorat en médecine — Faculté de Médecine de Rabat" },
       { y: "2014",        t: "Spécialisation en cardiologie — CHU Ibn Sina" },
