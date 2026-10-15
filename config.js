@@ -41,7 +41,7 @@ const DOCTORS = [
     subSpecialty: "Cardiologie interventionnelle & prévention",   // Sous-titre court (facultatif)
     photo:        "",                      // Ex : "photos/dr-yassine.jpg"  ou lien https://…  — vide = initiales
     clinic:       "Cabinet Dr Nazzi",    // Clinique / cabinet
-    experience:   "30 ans",
+    experience:   "35 ans",
     bio:          "Cardiologue diplômé de la Faculté de Médecine de Rabat, le Dr El Amrani accompagne ses patients dans la prévention, le diagnostic et le suivi des maladies cardiovasculaires. Une approche à l'écoute, rigoureuse et personnalisée.",
 
     /* Contact */
