@@ -77,6 +77,9 @@ const DOCTORS = [
       { y: "2009",        t: "Doctorat en médecine — Faculté de Médecine de Rabat" },
       { y: "2014",        t: "Spécialisation en cardiologie — CHU Ibn Sina" },
       { y: "2016",        t: "Cardiologie interventionnelle — Paris" },
+      { y: "2009",        t: "Doctorat en médecine — Faculté de Médecine de Rabat" },
+      { y: "2014",        t: "Spécialisation en cardiologie — CHU Ibn Sina" },
+      { y: "2016",        t: "Cardiologie interventionnelle — Paris" },
       { y: "Aujourd'hui", t: "Cardiologue à la Clinique Al Madina" }
     ]
   },
