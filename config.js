@@ -55,10 +55,10 @@ const DOCTORS = [
     hours: { lun: "08:00-15:00", mar: "08:00-15:00", mer: "08:00-15:00", jeu: "08:00-15:00", ven: "08:00-15:00", sam: "", dim: "" },
 
     /* Réseaux (liens complets ; "" = bouton masqué) */
-    instagram:    "https://instagram.com/",
-    facebook:     "https://facebook.com/",
-    linkedin:     "https://linkedin.com/",
-    website:      "https://www.dr-elamrani.example",
+    instagram:    "",
+    facebook:     "",
+    linkedin:     "https://www.linkedin.com/mwlite/profile/in/mbarek-nazzi-bbbb77101",
+    website:      "",
 
     /* Rendez-vous (facultatif) : lien Doctolib… ou "tel:+212600000000" ou "https://wa.me/212600000000" */
     appointmentUrl: "",
