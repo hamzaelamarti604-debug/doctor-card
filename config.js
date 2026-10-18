@@ -74,13 +74,16 @@ const DOCTORS = [
     ],
     expertise: [" Echocardiographie-Doppler trans-thoracique", "Hypertension artérielle", "Rythmologie", "Test d'effort", "Holter Tensionnel", "Echo-Doppler vasculaire"],
     career: [                              // y = année, t = description
-      { y: "2009",        t: "Doctorat en médecine — Faculté de Médecine de Rabat" },
-      { y: "2014",        t: "Spécialisation en cardiologie — CHU Ibn Sina" },
-      { y: "2016",        t: "Cardiologie interventionnelle — Paris" },
-      { y: "2009",        t: "Doctorat en médecine — Faculté de Médecine de Rabat" },
-      { y: "2014",        t: "Spécialisation en cardiologie — CHU Ibn Sina" },
-      { y: "2016",        t: "Cardiologie interventionnelle — Paris" },
-      { y: "Aujourd'hui", t: "Cardiologue à la Clinique Al Madina" }
+      { y: "1989",        t: "Début de formation médicale spécialisée en cardiologie — Hôpital Militaire d'Instruction Mohammed V" },
+      { y: "1994",        t: "diplôme national de cardiologie  — Faculté de Médecine de l'Université Mohammed V de Rabat " },
+      { y: "1996",        t: "Professeur agrégé de cardiologie - Faculté de Médecine de Rabat" },
+      { y: "1999-2000",        t: "Chef du service de cardiologie à Rabat — Hôpital Militaire d'Instruction Mohammed V" },
+      { y: "2000-2013",        t: "Chef du service de cardiologie à Meknes — Hôpital Militaire Moulay Ismail" },
+      { y: "2003",        t: "Diplôme universitaire en tabacologie — Université de Reims, en France" },
+      { y: "2013",        t: "Début de l’exercice en secteur privé" },
+      { y: "2020",        t: "Formation en cardiologie pédiatrique — Université Abulcasis de Rabat" },
+      { y: "2021-2022",        t: "Diplôme universitaire en imagerie cardiovasculaire multimodale — Formation réalisée à Paris, en France" },
+      { y: "2026", t: "Président de la Société Marocaine de Cardiologie " }
     ]
   },
 
