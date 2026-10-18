@@ -38,7 +38,7 @@ const DOCTORS = [
     firstName:    "Mbarek",
     lastName:     "Nazzi",
     specialty:    "Cardiologue",
-    subSpecialty: "Cardiologie interventionnelle & prévention",   // Sous-titre court (facultatif)
+    subSpecialty: "Cardiologie générale & prévention",   // Sous-titre court (facultatif)
     photo:        "",                      // Ex : "photos/dr-yassine.jpg"  ou lien https://…  — vide = initiales
     clinic:       "Cabinet Dr Nazzi",    // Clinique / cabinet
     experience:   "35 ans",
