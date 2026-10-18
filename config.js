@@ -47,7 +47,7 @@ const DOCTORS = [
     /* Contact */
     phone:        "+212535526677",         // Format international, SANS espaces
     whatsapp:     "",                      // Facultatif. Ex : "+212600000000" → bouton + ligne WhatsApp
-    email:        "contact@dr-elamrani.example",
+    email:        "Mbarek.nazzi@gmail.com",
     address:      "N°2 Ave Ali Benyoussef, Meknes",
     mapsUrl:      "https://www.google.com/maps/place/Cabinet+Dr+Nazzi+Mbarek/@33.9037649,-5.5542728,17z/data=!3m1!4b1!4m6!3m5!1s0xda04539191f1abb:0xe79fee7cef816cd8!8m2!3d33.9037649!4d-5.5542728!16s%2Fg%2F11c5bpy148?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",                      // Facultatif : lien Google Maps exact. Vide = itinéraire généré depuis l'adresse
 
