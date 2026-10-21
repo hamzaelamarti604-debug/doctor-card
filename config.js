@@ -34,7 +34,7 @@ const DOCTORS = [
     slug:         "dr-Nazzi",            // ← L'URL : monsite.com/dr-nazzi  (minuscules, tirets, sans accent ni espace, UNIQUE)
 
     /* Identité */
-    title:        "Dr",                    // Titre : "Dr", "Pr"…
+    title:        "Pr",                    // Titre : "Dr", "Pr"…
     firstName:    "Mbarek",
     lastName:     "Nazzi",
     specialty:    "Cardiologue",
@@ -42,7 +42,7 @@ const DOCTORS = [
     photo:        "",                      // Ex : "photos/dr-yassine.jpg"  ou lien https://…  — vide = initiales
     clinic:       "Cabinet Dr Nazzi",    // Clinique / cabinet
     experience:   "35 ans",
-    bio:          "Cardiologue, ancien médecin colonel, le Dr Nazzi est diplômé de la Faculté de Médecine et de Pharmacie de Rabat. Après sa spécialisation en cardiologie, il a exercé au sein de l’Hôpital Militaire de Rabat, puis a dirigé le service de cardiologie de l’Hôpital Militaire de Meknès. Après sa carrière militaire, il a fondé son propre cabinet, où il exerce depuis lors. Fort de nombreuses formations et diplômes complémentaires, le Dr Nazzi accompagne ses patients dans la prévention, le diagnostic et le suivi des maladies cardiovasculaires. il s’investit également dans le développement de la cardiologie au Maroc en tant que Président de la Société Marocaine de Cardiologie.",
+    bio:          "Cardiologue, ancien médecin colonel, le Pr Nazzi est diplômé de la Faculté de Médecine et de Pharmacie de Rabat. Après sa spécialisation en cardiologie, il a exercé au sein de l’Hôpital Militaire de Rabat, puis a dirigé le service de cardiologie de l’Hôpital Militaire de Meknès. Après sa carrière militaire, il a fondé son propre cabinet, où il exerce depuis lors. Fort de nombreuses formations et diplômes complémentaires, le Dr Nazzi accompagne ses patients dans la prévention, le diagnostic et le suivi des maladies cardiovasculaires. il s’investit également dans le développement de la cardiologie au Maroc en tant que Président de la Société Marocaine de Cardiologie.",
 
     /* Contact */
     phone:        "+212535526677",         // Format international, SANS espaces
@@ -75,7 +75,7 @@ const DOCTORS = [
     expertise: [" Echocardiographie-Doppler trans-thoracique", "Hypertension artérielle", "Rythmologie", "Test d'effort", "Holter Tensionnel", "Echo-Doppler vasculaire"],
     career: [                              // y = année, t = description
       { y: "1989",        t: "Début de formation médicale spécialisée en cardiologie — Hôpital Militaire d'Instruction Mohammed V" },
-      { y: "1994",        t: "diplôme national de cardiologie  — Faculté de Médecine de l'Université Mohammed V de Rabat " },
+      { y: "1994",        t: "Diplôme national de cardiologie  — Faculté de Médecine de l'Université Mohammed V de Rabat " },
       { y: "1996",        t: "Professeur agrégé de cardiologie - Faculté de Médecine de Rabat" },
       { y: "1999-2000",        t: "Chef du service de cardiologie à Rabat — Hôpital Militaire d'Instruction Mohammed V" },
       { y: "2000-2013",        t: "Chef du service de cardiologie à Meknes — Hôpital Militaire Moulay Ismail" },
