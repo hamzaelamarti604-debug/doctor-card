@@ -55,8 +55,8 @@ const DOCTORS = [
     hours: { lun: "08:00-15:00", mar: "08:00-15:00", mer: "08:00-15:00", jeu: "08:00-15:00", ven: "08:00-15:00", sam: "", dim: "" },
 
     /* Réseaux (liens complets ; "" = bouton masqué) */
-    instagram:    "",
-    facebook:     "",
+    instagram:    "https://www.instagram.com/mbareknazzi?srtk=MWMwY2JnYjd6bjVpbw%3D%3D&utm_source=qr",
+    facebook:     "https://www.facebook.com/share/1FZn9F2v9a/?mibextid=wwXIfr",
     linkedin:     "https://www.linkedin.com/mwlite/profile/in/mbarek-nazzi-bbbb77101",
     website:      "",
 
@@ -72,18 +72,20 @@ const DOCTORS = [
       { v: "8 500+", p: 85, l: "patients suivis" },
       { v: "99%",    p: 98, l: "de satisfaction" }
     ],
-    expertise: [" Echocardiographie-Doppler trans-thoracique", "Hypertension artérielle", "Rythmologie", "Test d'effort", "Holter Tensionnel", "Echo-Doppler vasculaire"],
+    expertise: [" Echocardiographie-Doppler trans-thoracique", "Hypertension artérielle", "Holter ECG", "Holter Tensionnel", "Echocardiographie-Doppler Transthoracique", "Echocardiographie-Doppler vasculaire"],
     career: [                              // y = année, t = description
       { y: "1989",        t: "Début de formation médicale spécialisée en cardiologie — Hôpital Militaire d'Instruction Mohammed V" },
       { y: "1994",        t: "Diplôme national de cardiologie  — Faculté de Médecine de l'Université Mohammed V de Rabat " },
       { y: "1996",        t: "Professeur agrégé de cardiologie - Faculté de Médecine de Rabat" },
       { y: "1999-2000",        t: "Chef du service de cardiologie à Rabat — Hôpital Militaire d'Instruction Mohammed V" },
       { y: "2000-2013",        t: "Chef du service de cardiologie à Meknes — Hôpital Militaire Moulay Ismail" },
-      { y: "2003",        t: "Diplôme universitaire en tabacologie — Université de Reims, en France" },
+      { y: "2003",        t: "Diplôme inter-universitaire de tabacologie et d'aide au sevrage tabagique — Université de Reims, en France" },
       { y: "2013",        t: "Début de l’exercice en secteur privé" },
-      { y: "2020",        t: "Formation en cardiologie pédiatrique — Université Abulcasis de Rabat" },
+      { y: "2020",        t: "Formation en cardiopathies congénitales et acquises de l'enfant — Université Abulcasis de Rabat" },
       { y: "2021-2022",        t: "Diplôme universitaire en imagerie cardiovasculaire multimodale — Formation réalisée à Paris, en France" },
-      { y: "2026", t: "Président de la Société Marocaine de Cardiologie " }
+      { y: "2024",        t: "Enseignant associé à l'UM6SS — Université Mohammed VI des Sciences de la Santé" },
+      { y: "2025",        t: "Diplôme universitaire de pédagogie appliquée aux sciences de la santé — UM6SS" },
+      { y: "2026", t: "Président de la Société Marocaine de Cardiologie / Fellow de la Société Européenne de Cardiologie -FESC- " }
     ]
   },
 
