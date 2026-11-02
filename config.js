@@ -16,7 +16,7 @@
 
 /* ---- Réglages généraux ---- */
 const SETTINGS = {
-  siteUrl: "",            // Vide = automatique (domaine actuel). Ou forcez : "https://monsite.com"
+  siteUrl: "https://pontia.carte-ma.workers.dev",            // Vide = automatique (domaine actuel). Ou forcez : "https://monsite.com"
   showDirectory: false,   // true = la page d'accueil liste tous les profils (utile pour vos démos)
   showThemePicker: false  // true = pastilles de test des couleurs (démo client)
 };
