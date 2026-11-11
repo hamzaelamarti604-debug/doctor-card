@@ -22,7 +22,7 @@ const SETTINGS = {
 };
 
 /* ---- Marque affichée en bas de chaque carte ---- */
-const BRAND = { name: "MediCard", tagline: "Carte de visite numérique" };
+const BRAND = { name: "Pontia", tagline: "Carte de visite numérique" };
 
 /* ====================================================================
    LISTE DES MÉDECINS — un bloc { ... }, par médecin
