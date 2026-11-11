@@ -72,7 +72,7 @@ const DOCTORS = [
       { v: "8 500+", p: 85, l: "patients suivis" },
       { v: "99%",    p: 98, l: "de satisfaction" }
     ],
-    expertise: [" Echocardiographie-Doppler trans-thoracique", "Hypertension artérielle", "Holter ECG", "Holter Tensionnel", "Echocardiographie-Doppler Transthoracique", "Echocardiographie-Doppler vasculaire"],
+    expertise: ["Hypertension artérielle", "Holter ECG", "Holter Tensionnel", "Echocardiographie-Doppler Transthoracique", "Echocardiographie-Doppler vasculaire"],
     career: [                              // y = année, t = description
       { y: "1989",        t: "Début de formation médicale spécialisée en cardiologie — Hôpital Militaire d'Instruction Mohammed V" },
       { y: "1994",        t: "Diplôme national de cardiologie  — Faculté de Médecine de l'Université Mohammed V de Rabat " },
