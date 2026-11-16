@@ -144,6 +144,65 @@ const DOCTORS = [
     stats: [],
     expertise: ["Implants dentaires", "Blanchiment", "Orthodontie invisible", "Soins conservateurs"],
     career: []
+  },
+
+  /* ───────────── Dr Zouhair Ait Lhaj Ou Said — Médecin du travail (vraie carte client) ───────────── */
+  {
+    slug: "dr-ait-lhaj",
+    title: "Dr", firstName: "Zouhair", lastName: "Ait Lhaj Ou Said",
+    specialty: "Médecin du travail",
+    subSpecialty: "Santé au travail · Prévention",
+    photo: "photos/dr-ait-lhaj.jpg",
+    clinic: "",                          // pas de lieu affiché (médecin du secteur public)
+    experience: "Plus de 12 ans",
+    bio: "Médecin du travail, le Dr Ait Lhaj Ou Said est diplômé en médecine générale (Faculté de Médecine de Marrakech) et en médecine du travail (Université de Bordeaux). Il assure la surveillance médicale des salariés — visites d’embauche, périodiques et de reprise — et l’évaluation de leur aptitude à leur poste. Il dépiste les maladies professionnelles et les problèmes de santé liés au travail, identifie et prévient les risques professionnels, notamment par l’étude des postes (ergonomie, conditions de sécurité). Il conseille les employeurs sur l’amélioration des conditions de travail et la réduction des accidents du travail, mène des actions de sensibilisation auprès des salariés et participe au comité de sécurité pour l’amélioration de l’hygiène et de la sécurité au travail.",
+    phone: "+212610423738", whatsapp: "+212610423738",
+    email: "zouhair.aitlhaj@gmail.com",
+    address: "", mapsUrl: "",            // pas de localisation (à sa demande)
+    hours: {},                           // pas d'horaires
+    instagram: "https://www.instagram.com/universprevo",
+    facebook: "",
+    linkedin: "https://www.linkedin.com/in/zouhair-ait-lhaj-ousaid-5966922b4",
+    website: "",
+    appointmentUrl: "",
+    theme: "emeraude",
+    animation: "croix",                  // animation sous la spécialité : "croix" (sinon ECG par défaut)
+    languages: ["Arabe", "Français", "Anglais"],
+    cv: "cv/dr-ait-lhaj.pdf",
+    business: {
+      label: "Demander une offre pour mon entreprise",
+      message: "Bonjour Docteur, je souhaite des informations sur un suivi en médecine du travail pour mon entreprise."
+    },
+    servicesTitle: "Services aux entreprises",
+    services: [
+      { icon: "clipboard", t: "Visites médicales", s: "Embauche, périodiques et reprise" },
+      { icon: "shield",    t: "Aptitude au poste", s: "Évaluation et suivi des salariés" },
+      { icon: "chair",     t: "Études de poste", s: "Ergonomie et conditions de sécurité" },
+      { icon: "cross",     t: "Prévention des risques", s: "Maladies et accidents du travail" },
+      { icon: "users",     t: "Sensibilisation", s: "Actions auprès des salariés" },
+      { icon: "building",  t: "Comité de sécurité", s: "Hygiène et sécurité au travail" }
+    ],
+    clientsTitle: "Ils m'ont fait confiance",
+    clients: ["TGCC", "Omnidoc Santé", "Eaux Minérales d'Oulmès", "Les Maîtres du Pain", "Hôtel Eden Andalou", "Hôtel Maaden"],
+    stats: [
+      { v: "700+",  p: 80, l: "collaborateurs suivis" },
+      { v: "12+",   p: 75, l: "ans d'expérience" },
+      { v: "99%",   p: 98, l: "de satisfaction" }
+    ],
+    expertise: ["Maladies professionnelles", "Conseil aux employeurs", "Enseignement médical"],
+    expertiseLayout: "grid",             // pastilles sur 2 colonnes (plus compact)
+    career: [
+      { y: "2006-2014", t: "Doctorat en médecine générale — Faculté de Médecine de Marrakech" },
+      { y: "2015-2017", t: "Diplôme universitaire en médecine du sport — Université de Bordeaux" },
+      { y: "2015-2026", t: "Enseignement médical" },
+      { y: "2019-2021", t: "Diplôme universitaire en médecine du travail — Université de Bordeaux" },
+      { y: "2020-2026", t: "Médecin du travail — Groupe scolaire Otmali, Marrakech" },
+      { y: "2022-2024", t: "Médecin du travail — Les Maîtres du Pain et 16 Café, Marrakech" },
+      { y: "2022-2025", t: "Médecin du travail — Hôtel Fairmont Royal Palm, Marrakech · Groupe OCS, Casablanca / Rabat" },
+      { y: "2022-2026", t: "Médecin du travail — Elbilia Skolar · Société Matahine Bladi, Marrakech" },
+      { y: "2023-2026", t: "Médecin du travail — Groupe Rouandi, Marrakech" },
+      { y: "2024-2026", t: "Médecin du travail — TGCC · SOS Village, Marrakech" }
+    ]
   }
  
   /* ➕ AJOUTEZ ICI UN NOUVEAU MÉDECIN : n'oubliez pas la virgule après le "}" du médecin précédent */

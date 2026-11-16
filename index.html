@@ -36,6 +36,29 @@ h1{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;font-size:2.45
 .ecg{position:absolute!important;left:0;right:0;bottom:66px;display:block;width:100%;height:40px;opacity:.85}
 .ecg path{fill:none;stroke:var(--al);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:100;animation:ecg 3.6s ease-in-out infinite}
 @keyframes ecg{0%{stroke-dashoffset:100;opacity:1}60%{stroke-dashoffset:0;opacity:1}90%{stroke-dashoffset:0;opacity:0}100%{stroke-dashoffset:100;opacity:0}}
+/* Animation « croix » (option par médecin : animation: "croix") */
+.ecg.croix path{animation-duration:4.2s}
+.ecg.croix path.top{animation-name:ecgtop}
+@keyframes ecgtop{0%,25%{stroke-dashoffset:100;opacity:1}35%{stroke-dashoffset:0;opacity:1}90%{stroke-dashoffset:0;opacity:0}100%{stroke-dashoffset:100;opacity:0}}
+.ecg.croix .halo{fill:none;stroke:var(--al);stroke-width:1;opacity:0;stroke-dasharray:none;transform-origin:200px 22px;animation:halo 4.2s ease-out infinite}
+@keyframes halo{0%,40%{opacity:0;transform:scale(.6)}62%{opacity:.55;transform:scale(1)}88%{opacity:0;transform:scale(1.35)}100%{opacity:0}}
+/* Blocs facultatifs : services, références, langues */
+.svc{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.svc div{padding:14px 13px;border-radius:16px;background:var(--soft);border:1px solid var(--line);font-size:.86rem;font-weight:600;line-height:1.3}
+.svc div i{display:grid;place-items:center;width:34px;height:34px;margin-bottom:9px;border-radius:11px;color:var(--gold);background:color-mix(in srgb,var(--gold) 13%,transparent)}
+.svc div i svg{width:17px;height:17px}
+.svc div small{display:block;margin-top:4px;color:var(--muted);font-weight:400;font-size:.76rem;line-height:1.4}
+.refs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.refs span{display:flex;align-items:center;justify-content:center;text-align:center;min-height:58px;padding:10px;border-radius:14px;border:1px solid var(--line);
+  background:linear-gradient(160deg,var(--card),var(--soft));font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;font-size:1.02rem;line-height:1.15;letter-spacing:.02em}
+.refs-note{margin-top:12px;text-align:center;font-size:.74rem;color:var(--faint)}
+.tags.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+.tags.grid .tag{font-size:.8rem;padding:9px 11px}
+.langs{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.langs span{display:inline-flex;align-items:center;gap:7px;padding:7px 12px;border-radius:999px;font-size:.8rem;font-weight:600;border:1px solid color-mix(in srgb,var(--gold) 45%,transparent);color:var(--ink)}
+.langs span:before{content:"";width:6px;height:6px;border-radius:50%;background:var(--gold)}
+.btn.biz{background:linear-gradient(135deg,var(--gold),color-mix(in srgb,var(--gold) 60%,var(--h2)));color:#fff;border:0;box-shadow:0 12px 24px -12px color-mix(in srgb,var(--gold) 80%,transparent)}
+.btn.biz svg{color:#fff}
 
 /* ---------- Actions (remontent sur l'en-tête) ---------- */
 .actions{position:relative;z-index:2;margin-top:-56px;display:grid;gap:12px}
@@ -194,7 +217,15 @@ const I = {
   instagram:'<rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8"/>',
   facebook:'<path d="M15 3h-2.5A3.5 3.5 0 0 0 9 6.5V9H6.5v3.5H9V21h3.5v-8.5H15l.5-3.5h-3V7a1 1 0 0 1 1-1H15z"/>',
   linkedin:'<rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2.5 2.5 0 0 1 5 0v4M12 10v7"/>',
-  globe:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>'
+  globe:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>',
+  briefcase:'<rect x="3" y="7" width="18" height="13" rx="2.5"/><path d="M8 7V5.5A1.5 1.5 0 0 1 9.5 4h5A1.5 1.5 0 0 1 16 5.5V7M3 12.5h18"/>',
+  clipboard:'<rect x="5" y="4" width="14" height="17" rx="2.5"/><path d="M9 4h6v3H9zM8.5 12l2 2 4-4.5"/>',
+  shield:'<path d="M12 3l7.5 3v5.5c0 4.6-3.2 8.2-7.5 9.5-4.3-1.3-7.5-4.9-7.5-9.5V6z"/><path d="M9 12l2 2 4-4"/>',
+  chair:'<path d="M7 11V5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v6M5 11h14v3H5zM7 14v7M17 14v7"/>',
+  users:'<circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M16 4.6a3.5 3.5 0 0 1 0 6.8M18 20a6.5 6.5 0 0 0-2.4-5"/>',
+  cross:'<path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6z"/>',
+  building:'<rect x="4" y="3" width="11" height="18" rx="1.5"/><path d="M15 9h4a1 1 0 0 1 1 1v11M8 7h3M8 11h3M8 15h3"/>',
+  download:'<path d="M12 4v11M7 10l5 5 5-5M5 20h14"/>'
 };
 const svg = k => `<svg class="i" viewBox="0 0 24 24" aria-hidden="true">${I[k]}</svg>`;
 const DAYS = ["lun","mar","mer","jeu","ven","sam","dim"], DAY_LABELS = ["Lun","Mar","Mer","Jeu","Ven","Sam","Dim"];
@@ -254,6 +285,12 @@ function render(d){
     has(d.whatsapp) && `<a href="https://wa.me/${digits(d.whatsapp)}" target="_blank" rel="noopener"><i>${svg("chat")}</i>WhatsApp</a>`,
     has(dir)        && `<a href="${esc(dir)}" target="_blank" rel="noopener"><i>${svg("pin")}</i>Itinéraire</a>`
   ].filter(Boolean).join("");
+  const biz = (d.business && has(d.business.label) && has(d.whatsapp || d.phone))
+    ? `<a class="btn biz" href="https://wa.me/${digits(d.whatsapp || d.phone)}${has(d.business.message) ? "?text=" + encodeURIComponent(d.business.message) : ""}" target="_blank" rel="noopener">${svg("briefcase")}${esc(d.business.label)}</a>` : "";
+  const cvBtn = has(d.cv) ? `<a class="btn ghost" href="${esc(asset(d.cv))}" download target="_blank" rel="noopener">${svg("download")}Télécharger mon CV</a>` : "";
+  const services = (d.services || []).filter(x => x && has(x.t)).map(x => `<div><i>${svg(I[x.icon] ? x.icon : "clipboard")}</i>${esc(x.t)}${has(x.s) ? `<small>${esc(x.s)}</small>` : ""}</div>`).join("");
+  const refs = (d.clients || []).filter(has).map(x => `<span>${esc(x)}</span>`).join("");
+  const langs = (d.languages || []).filter(has).map(x => `<span>${esc(x)}</span>`).join("");
   const appt = has(d.appointmentUrl) ? `<a class="btn primary" href="${esc(d.appointmentUrl)}" target="_blank" rel="noopener">${svg("cal")}Prendre rendez-vous</a>` : "";
 
   // --- Barre fixe : rendez-vous (ou appel) + WhatsApp / itinéraire
@@ -292,21 +329,28 @@ function render(d){
     <h1>${esc(full)}</h1>
     ${sec(has(d.subSpecialty), `<p class="sub">${esc(d.subSpecialty)}</p>`)}
     ${sec(has(d.clinic), `<div class="clinic">${svg("pin")}${esc(d.clinic)}</div>`)}
-    <svg class="ecg" viewBox="0 0 400 44" preserveAspectRatio="none" aria-hidden="true"><path pathLength="100" d="M0 24 H110 l10-5 10 5 H160 l8-20 12 38 10-34 8 16 H250 l10-6 10 6 H400"/></svg>
+    ${d.animation === "croix"
+      ? `<svg class="ecg croix" viewBox="0 0 400 44" preserveAspectRatio="xMidYMid meet" aria-hidden="true"><circle class="halo" cx="200" cy="22" r="21"/><path pathLength="100" d="M0 22 H183 V28 H194 V39 H206 V28 H217 V22 H400"/><path class="top" pathLength="100" d="M183 22 V16 H194 V5 H206 V16 H217 V22"/></svg>`
+      : `<svg class="ecg" viewBox="0 0 400 44" preserveAspectRatio="none" aria-hidden="true"><path pathLength="100" d="M0 24 H110 l10-5 10 5 H160 l8-20 12 38 10-34 8 16 H250 l10-6 10 6 H400"/></svg>`}
   </header>
   <nav class="actions fade d1" id="actions">
     ${sec(tiles, `<div class="qa">${tiles}</div>`)}
     ${appt}
+    ${biz}
     <button class="btn ghost" id="save">${svg("user")}Ajouter aux contacts</button>
+    ${cvBtn}
   </nav>
   ${sec(stats, `<section class="stats fade d2">${stats}</section>`)}
 
   <section class="card fade d2">${head("about","À propos")}
     ${sec(has(d.bio), `<div class="bio${longBio ? " clamp" : ""}" id="bio"><p>${esc(d.bio)}</p>${longBio ? `<button class="more-btn" data-toggle="bio" type="button">Lire la suite${svg("chev")}</button>` : ""}</div>`)}
     <div class="facts">${facts}</div>
+    ${sec(langs, `<div class="langs" aria-label="Langues parlées">${langs}</div>`)}
   </section>
 
-  ${sec(tags, `<section class="card">${head("star","Expertise")}<div class="tags">${tags}</div></section>`)}
+  ${sec(services, `<section class="card">${head("briefcase", esc(d.servicesTitle || "Services aux entreprises"))}<div class="svc">${services}</div></section>`)}
+  ${sec(tags, `<section class="card">${head("star","Expertise")}<div class="tags${d.expertiseLayout === "grid" ? " grid" : ""}">${tags}</div></section>`)}
+  ${sec(refs, `<section class="card">${head("building", esc(d.clientsTitle || "Ils m'ont fait confiance"))}<div class="refs">${refs}</div></section>`)}
   ${sec(career, `<section class="card">${head("path","Parcours")}<div class="tl" id="tl">${career}</div>${careerMore}</section>`)}
   ${sec(contact, `<section class="card fade d3">${head("phone","Contact")}${contact}</section>`)}
 
